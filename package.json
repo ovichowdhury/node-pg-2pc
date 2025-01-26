@@ -1,0 +1,16 @@
+{
+  "name": "pg-2pc",
+  "version": "1.0.0",
+  "description": "Two Phase Commit Design Pattern Implementation with Node Postgres.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
