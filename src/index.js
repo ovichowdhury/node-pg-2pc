@@ -98,7 +98,7 @@ app.post("/commit", async (req, res) => {
 });
 
 /**
- * Commit the Transaction
+ * Rollback the Transaction
  */
 app.post("/rollback", async (req, res) => {
   let client = null;
